@@ -3,12 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <fragment
+
+    <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="pelis.cucea.udg.mx.pelis.fragments.List"
-        tools:layout="@layout/fragment_list"
-        android:id="@+id/fragmentList"
-        ></fragment>
+        android:id="@+id/listEjemplos">
+    </ListView>
 
 </LinearLayout>
